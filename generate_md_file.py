@@ -9,13 +9,11 @@ soup = BeautifulSoup(response.text, "html.parser")
 
 list_items = [li.find("a") for li in soup.find_all("li") if li.find("a") and li.find("a").has_attr("href")]
 
-print(list_items)
-
-# valid_openings = [(a.get_text(strip=True), urljoin(base_url, a["href"])) for a in list_items if a["href"].startswith("#")]
+valid_openings = [(a.get_text(strip=True), urljoin(base_url, a["href"])) for a in list_items if a["href"].startswith("#")]
 # Get the first 10 valid openings
-# openings = valid_openings[:10]
+openings = valid_openings[:10]
 
-openings = [(opening, base_url+"#"+opening) for opening in ["Alekhine's-Defense", "Benko-Gambit"]]
+# openings = [(opening, base_url+"#"+opening) for opening in ["Alekhine's-Defense", "Benko-Gambit"]]
 
 markdown_content = """---
 title: Chess Openings

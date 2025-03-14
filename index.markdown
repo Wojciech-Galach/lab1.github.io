@@ -22,6 +22,14 @@ A strong chess game often begins with a well-played opening. Here are some of th
 
 
 <ul>
-  <li><a href="Alekhine's-Defense" target="_blank">Alekhine's-Defense</a></li>
-  <li><a href="Benko-Gambit" target="_blank">Benko-Gambit</a></li>
+  <li><a href="Alekhine’s Defense" target="_blank">Alekhine’s Defense</a></li>
+  <li><a href="Benko Gambit" target="_blank">Benko Gambit</a></li>
+  <li><a href="Benoni Defense" target="_blank">Benoni Defense</a></li>
+  <li><a href="Bird’s Opening" target="_blank">Bird’s Opening</a></li>
+  <li><a href="Bogo-Indian Defense" target="_blank">Bogo-Indian Defense</a></li>
+  <li><a href="Budapest Gambit" target="_blank">Budapest Gambit</a></li>
+  <li><a href="Catalan Opening" target="_blank">Catalan Opening</a></li>
+  <li><a href="Caro-Kann Defense" target="_blank">Caro-Kann Defense</a></li>
+  <li><a href="Colle System" target="_blank">Colle System</a></li>
+  <li><a href="Dutch Defense" target="_blank">Dutch Defense</a></li>
 </ul>
